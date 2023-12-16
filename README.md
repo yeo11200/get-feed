@@ -29,3 +29,10 @@ geekNewsRSS({
 
 - 잔디 url이 있으면 잔디로 내용을 보낸다.
 - 잔디 url이 없다면, parser 여부에 따라 html이나, string을 return 해줌
+
+
+4. RSS url
+- velog : https://v2.velog.io/rss
+- geek new : https://news.hada.io/rss/news
+- geek blog : https://news.hada.io/rss/blog
+- 우아한 형제들 : https://techblog.woowahan.com/feed/
