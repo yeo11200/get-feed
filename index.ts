@@ -63,7 +63,7 @@ export const geekNewsRSS = async ({
     webhooksSendMessage({
       type: "jandi",
       urlType: jandi,
-      title: "New Feed",
+      title: "News Feed",
       content: trimText,
     } as WebhooksSendMessage);
     return;
