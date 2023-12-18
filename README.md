@@ -19,20 +19,25 @@
 
 ```javascript
 geekNewsRSS({
-  url: "",
-  htmlParser: undefined,
-  jandi: undefined,
+    url: '',
+    htmlParser: undefined,
+    jandi: undefined,
 });
 ```
 
 3. return 방식
 
-- 잔디 url이 있으면 잔디로 내용을 보낸다.
-- 잔디 url이 없다면, parser 여부에 따라 html이나, string을 return 해줌
-
+-   잔디 url이 있으면 잔디로 내용을 보낸다.
+-   잔디 url이 없다면, parser 여부에 따라 html이나, string을 return 해줌
 
 4. RSS url
-- velog : https://v2.velog.io/rss
-- geek new : https://news.hada.io/rss/news
-- geek blog : https://news.hada.io/rss/blog
-- 우아한 형제들 : https://techblog.woowahan.com/feed/
+
+-   velog : https://v2.velog.io/rss
+-   geek new : https://news.hada.io/rss/news
+-   geek blog : https://news.hada.io/rss/blog
+-   우아한 형제들 : https://techblog.woowahan.com/feed/
+
+## 현재 이슈
+
+-   rss-parser cors 에러가 발생을 하기에, local에서는 사용이 불가능
+-   중간에 middle ware나 https 환경에서만 사용이 가능하다.
